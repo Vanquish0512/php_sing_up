@@ -1,0 +1,407 @@
+@font-face {
+  font-family: 'NotoSansCJKjp-Bold';
+  src: url("../font/NotoSansCJKjp-Bold_sb.woff") format("woff"), url("../font/NotoSansCJKjp-Bold_sb.eot") format("oldIE"), url("../font/NotoSansCJKjp-Bold_sb.ttf") format("truetype");
+  /* Safari, Android, iOS */
+}
+@font-face {
+  font-family: 'NotoSansCJKjp-DemiLight';
+  src: url("../font/NotoSansCJKjp-DemiLight_sb.woff") format("woff"), url("../font/NotoSansCJKjp-DemiLight_sb.eot") format("oldIE"), url("../font/NotoSansCJKjp-DemiLight_sb.ttf") format("truetype");
+  /* Safari, Android, iOS */
+}
+body {
+  font-family: 'NotoSansCJKjp-DemiLight';
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: 'NotoSansCJKjp-Bold';
+  margin: 0;
+  padding: 0;
+}
+
+img,
+object,
+embed,
+video {
+  max-width: 100%;
+}
+
+/* IE 6 does not support max-width so default to width 100% */
+.ie6 img {
+  width: 100%;
+}
+
+/* Mobile Layout: 480px and below. */
+.gridContainer {
+  float: none;
+  clear: none;
+  width: 100%;
+  margin-right: 0;
+  margin-left: 0;
+  padding-right: 0;
+  padding-left: 0;
+  text-align: center;
+}
+
+.big_box {
+  width: 300px;
+  height: auto;
+}
+
+/********  registration_mail_form.php  **************/
+.form_wrapper {
+  float: left;
+  width: 100%;
+  height: auto;
+}
+
+.pre_sing_up {
+  position: relative;
+  min-height: 100%;
+  background-image: url(../image/640pp.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.position_box {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+  isplay: -ms-flexbox;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+}
+
+.pre_sing_title {
+  font-size: 48px;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  width: 100%;
+  margin-top: -15%;
+  margin-left: -50%;
+  color: #fff;
+}
+
+.pre_sing_title2 {
+  font-size: 22px;
+  width: 100%;
+  margin: 0 0 35px 0;
+  padding: 0;
+  color: #fff;
+}
+
+.pre_box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 70%;
+  margin-top: -25%;
+  margin-left: -35%;
+}
+
+/********  registration_mail_check.php  **************/
+.pre_sing_up_success {
+  position: relative;
+  min-height: 100%;
+  background-image: url(../image/run.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.back_btn {
+  margin: 35px 0;
+}
+
+/********  registration_form.php  **************/
+.sin_up_card {
+  overflow: hidden;
+  width: 100%;
+  height: auto;
+  margin: 0;
+  text-align: center;
+  background: #fff;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+.sin_up_box {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 25vh;
+  isplay: -ms-flexbox;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+}
+
+.profile_sin_up_layout {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #d96466;
+}
+
+.profile_sin_up_back {
+  position: relative;
+  min-height: 100%;
+  background-image: url(../image/test2.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.profile_sin_up_form {
+  display: block;
+  float: left;
+  width: 96%;
+  height: auto;
+  margin: 0 2%;
+}
+.profile_sin_up_form h2 {
+  font-size: 26px;
+  font-size: 29px;
+  margin: 0;
+  padding: 0;
+}
+
+.profile_sin_up_form_p {
+  font-size: 16px;
+  margin: 0 0;
+  padding: 0;
+}
+
+.gmap_box {
+  float: left;
+  width: 100%;
+  height: 250px;
+}
+
+#map_canvas {
+  width: 100%;
+  height: 100%;
+}
+
+/********  registration_check.php  **************/
+.title_p {
+  font-size: 32px;
+  margin: 0;
+  padding: 0;
+}
+
+.title_sub {
+  font-size: 26px;
+  margin: 0 0 15px 0;
+  padding: 0;
+}
+
+@media only screen and (min-width: 360px) {
+  /********  registration_mail_form.php  **************/
+  .pre_sing_title {
+    font-size: 55px;
+  }
+
+  .pre_sing_title2 {
+    font-size: 26px;
+  }
+
+  .pre_box {
+    top: 60%;
+    left: 50%;
+    width: 80%;
+    margin-top: -30%;
+    margin-left: -40%;
+  }
+}
+/* Tablet Layout: 481px to 768px. Inherits styles from: Mobile Layout. */
+@media only screen and (min-width: 480px) {
+  .gridContainer {
+    float: none;
+    clear: none;
+    width: 100%;
+    margin: 0;
+  }
+}
+@media only screen and (min-width: 567px) {
+  /********  registration_mail_form.php  **************/
+  .pre_sing_title {
+    font-size: 68px;
+  }
+
+  .pre_sing_title2 {
+    font-size: 32px;
+  }
+
+  .pre_box {
+    top: 60%;
+    left: 50%;
+    width: 80%;
+    margin-top: -30%;
+    margin-left: -40%;
+  }
+}
+/* Desktop Layout: 769px to a max of 1232px.  Inherits styles from: Mobile Layout and Tablet Layout. */
+@media only screen and (min-width: 767px) {
+  .gridContainer {
+    float: none;
+    clear: none;
+    width: 100%;
+  }
+
+  .pre_sing_up {
+    background-image: url(../image/2044pp.jpg);
+  }
+
+  /********  registration_mail_form.php  **************/
+  .pre_sing_title {
+    font-size: 100px;
+  }
+
+  .pre_sing_title2 {
+    font-size: 36px;
+  }
+
+  .pre_box {
+    top: 50%;
+    left: 50%;
+    width: 80%;
+    margin-top: -15%;
+    margin-left: -40%;
+  }
+
+  /********  registration_form.php  **************/
+  .form_no_wrapper {
+    float: left;
+    width: 100%;
+    margin: 0 0 5px 0;
+  }
+
+  .form_wrapper {
+    width: 46%;
+    margin: 0 2% 5px 2%;
+  }
+
+  .sin_up_card {
+    overflow: hidden;
+    width: 90%;
+    height: 1500px;
+    margin: 15px auto;
+    text-align: center;
+    background: #fff;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  }
+
+  .sin_up_box {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    float: left;
+    flex-direction: column;
+    width: 30%;
+    height: 100vh;
+    isplay: -ms-flexbox;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+  }
+
+  .profile_sin_up_layout {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+  }
+
+  .profile_sin_up_back {
+    position: relative;
+    float: right;
+    min-height: 100%;
+    background-image: url(../image/test2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .profile_sin_up_form {
+    display: block;
+    float: left;
+    width: 66%;
+    height: auto;
+    margin: 0 2%;
+  }
+  .profile_sin_up_form h2 {
+    font-size: 26px;
+    margin: 0;
+    padding: 0;
+  }
+
+  .profile_sin_up_form_p {
+    font-size: 16px;
+    margin: 0 0;
+    padding: 0;
+  }
+}
+@media only screen and (min-width: 1023px) {
+  .gridContainer {
+    float: none;
+    clear: none;
+    width: 100%;
+  }
+
+  /********  registration_mail_form.php  **************/
+  .pre_sing_title {
+    font-size: 100px;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    margin-top: -15%;
+    margin-left: -50%;
+  }
+
+  .pre_sing_title2 {
+    font-size: 36px;
+  }
+
+  .pre_box {
+    top: 70%;
+    left: 50%;
+    width: 500px;
+    margin-top: -15%;
+    margin-left: -250px;
+  }
+}
+/*# sourceMappingURL=sign_style.css.map */
+
+/*# sourceMappingURL=sign_style.css.map */
