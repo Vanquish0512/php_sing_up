@@ -5,7 +5,7 @@
 ## Development tools
 
 | Category | Names |
-|:-----------|------------:|:
+|:-----------|------------:|
 | Language   |  PHP7, JavaScript, SQL, CSS, HTML |
 | Database   |  MySQL (InnoDB) |
 | soft       |  Dreamweaver Illustrator |
